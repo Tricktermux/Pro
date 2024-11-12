@@ -418,7 +418,7 @@ def Subscription():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 	clear()
 	print(logo)
-	r1=str(urlopen("https://github.com/GodBishesh/tool-approval/blob/main/approvalSheet.txt").read())
+	r1=str(urlopen("https://github.com/Tricktermux/tool-approval/blob/main/approvalSheet.txt").read())
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
